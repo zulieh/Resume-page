@@ -3,6 +3,7 @@
     <head>
         <title> Resume site</title>
         <link href="style.css" rel="stylesheet">
+        <link href="script.js" rel="script">
     </head>
     <body>
         <a href="">
@@ -58,14 +59,7 @@
                         </div>
                     </div>
                     <div class ="column">
-                        <div class = "contact-section">
-                            <h3>mobile:</h3>(+234)8138348347
-                            <h3>email:</h3> tzuleiha@gmail.com
-                            <h3>github:</h3> a href ="www.github.com/zulieh"
-                            <h3>address:</h3> chris maduike lekki phase 1, lagos, nigeria.  
-                        </div>
-
-                        <div class ="skill-section">
+                       <div class ="skill-section">
                             <h1>skill</h1>
                             <ul>
                                 <li>basic stack: HTML, CSS/SASS, Javascript,wordpress</li>
@@ -79,18 +73,55 @@
                         <div class ="academic-section">
                             <h1>academic background</h1>
                             <h3>university of ilorin - 2019</h3>
-                            <p>bachelor of science (BSC) in information and communcation science - second class upper</p>
+                            <p>Bachelor of science (BSC) in information and communcation science - second class upper</p>
                         </div>
 
                         <div class ="certification-section">
                             <h1>certification</h1>
                             <ul>
-                                <li>cisco, - 2020 <p>cisco networking academy:introduction to network security</p></li>
-                                <li>google, - 2020<p>google africa scholarship - mobile web</p></li>
+                                <li><h3>cisco - 2020</h3><p>cisco networking academy:introduction to network security</p></li>
+                                <li><h3>google - 2020</h3><p>google africa scholarship - mobile web</p></li>
                             </ul>
                         </div>
-                    </div>
+                    </div> 
                 </div>
+
+                <div class = "contact-section">
+                    <div class = "contact">contact me</div>
+                    <div class = "row">
+                            <div class ="column">
+                                <form id ="contact-form">
+                                    <label for ="name"></label>
+                                    <input type="text" placeholder ="name" id ="name" value = ""><br>
+
+                                    <label for ="email"></label>
+                                    <input type="text" placeholder ="email" id ="email" value =""><br>
+
+                                    <label for ="subject"></label>
+                                    <input type="text" name ="" placeholder="subject" id ="subject" value =""><br>
+
+                                    <label for ="name"></label>
+                                    <textarea type="text" placeholder ="message" id= "message" cols= "34"></textarea><br>
+                                    
+                                    <button name ="submit">submit</button>
+                                </form>
+                            </div>
+
+                            <div class ="column">
+                                <div class ="my-contact">
+                                    <h3>email</h3>
+                                    <p>tzuleiha@gmail.com</p>
+
+                                    <h3>mobile</h3>
+                                    <p>(+234)8138348347</p>
+
+                                    <h3>address</h3>
+                                    <p>chris maduike lekki phase 1, lagos, nigeria</p>
+                                </div>
+                            </div>
+                    </div>  
+                </div>
+
             </div>
     </body>
     

@@ -10,7 +10,7 @@ body {
       font-size: large;      
   }
   #person-img {
-    width: 10%;
+    width: 15%;
     height: 5%;
     border-radius: 50%;
   }
@@ -22,23 +22,41 @@ body {
   }
   h1{
       text-transform: uppercase;
-      font-size: medium;
+      font-size: large;
   }
   h2{
       text-transform: capitalize;
-      font-size: small;
+      font-size: medium;
   }
   h3{
       text-transform: capitalize;
-      font-size: small;
-      line-height: 0;
+      font-size: medium;
   }
+
   .year{
       text-transform: uppercase;
-      font-size: smaller;
+      font-size: small;
   }
   li{   
-    font-size: x-small;
-  }
+    text-transform: capitalize;
+    font-size: small;
+}
+
+.contact-section{
+    width: 70%; 
+};
+
+.contact-form{
+    border-radius: 10%;
+}
+.contact {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 10%;
+}
+
+#contact-form{
+    border-radius: 50%;
+}
   
   
