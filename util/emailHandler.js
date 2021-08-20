@@ -1,5 +1,5 @@
 const nodemailer = require('nodemailer');
-require('dotenv').config({ path: './config/config.env' });
+require('dotenv').config();
 
 
 
