@@ -9,7 +9,7 @@ contactForm.addEventListener("submit", async (event) => {
 });
 
 const sendMail = (mail) => {
-    fetch("https://nodemailer-zuleiha-lo.herokuapp.com/send", {
+    fetch("https://nodemailer-resume-page-hng.herokuapp.com//send", {
       method: "post", 
       body: mail,
   
