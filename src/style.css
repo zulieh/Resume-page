@@ -20,5 +20,25 @@ body {
   .column{
       flex: 50%;
   }
+  h1{
+      text-transform: uppercase;
+      font-size: medium;
+  }
+  h2{
+      text-transform: capitalize;
+      font-size: small;
+  }
+  h3{
+      text-transform: capitalize;
+      font-size: small;
+      line-height: 0;
+  }
+  .year{
+      text-transform: uppercase;
+      font-size: smaller;
+  }
+  li{   
+    font-size: x-small;
+  }
   
   
