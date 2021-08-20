@@ -1,0 +1,24 @@
+body {
+    background-color: #eeeeee;
+}
+#logo-img {
+    width: 20%;
+    height: 1%;
+  }
+  .resume-header{
+      text-align: center;
+      font-size: large;      
+  }
+  #person-img {
+    width: 10%;
+    height: 5%;
+    border-radius: 50%;
+  }
+  .row{
+      display:flex;
+  }
+  .column{
+      flex: 50%;
+  }
+  
+  
